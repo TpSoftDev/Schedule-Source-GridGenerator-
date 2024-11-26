@@ -1,0 +1,74 @@
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Excel files
+*.xlsx
+*.xls
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Virtual Environment
+venv/
+.venv/
+ENV/
+
+# Logs
+*.log
+
+# Local development
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Backup files
+*.bak
+*.tmp
+*.temp
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Custom environment variables
+SS_CODE=isu
+SS_USER=btowle04
+SS_PASSWORD=6269
+TEST_SITE_AUTH=https://test.tmwork.net/2023.1/api/ops/auth
+TEST_SITE_BASE=https://test.tmwork.net/2023.1
+LIVE_SITE_BASE=https://tmwork.net/2023.1
